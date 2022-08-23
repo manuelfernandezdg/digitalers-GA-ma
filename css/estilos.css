@@ -331,3 +331,54 @@ a.footer:active {
     border: none;
     height: 600px;
 }
+
+/* Formularios */
+.formulario label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    display: block;
+    width: 450px;
+    margin: 15px auto;
+
+    padding: 10px;
+
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid var(--color-marron-200);
+
+    outline: none;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario select:focus {
+    border-bottom: 2px solid var(--color-acento);
+}
+
+.formulario textarea {
+    height: 200px;
+}
+
+.formulario .opciones {
+    display: inline-block;
+    width: auto;
+    margin: 5px;
+}
+
+.formulario .submit {
+    background-color: var(--color-acento);
+    font-weight: 700;
+    border: none;
+}
+
+#exito {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
