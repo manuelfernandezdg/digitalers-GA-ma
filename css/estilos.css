@@ -251,32 +251,32 @@ a.footer:active {
 }
 
 /* Catálogo */
-#catalogo table {
+.catalogo table {
     margin: 0 auto;
     width: 1250px;
 }
 
-#catalogo img {
+.catalogo img {
     width: 150px;
 }
 
-#catalogo th, td {
+.catalogo th, td {
     padding: 16px;
 }
 
-#catalogo th {
+.catalogo th {
     background-color: var(--color-acento);
 }
 
-#catalogo td {
+.catalogo td {
     background-color: var(--color-marron-100);
 }
 
-#catalogo tr:nth-child(odd) td {
+.catalogo tr:nth-child(odd) td {
     background-color: var(--color-marron-200);
 }
 
-#catalogo tr:hover td {
+.catalogo tr:hover td {
     background-color: var(--color-acento);
 }
 
