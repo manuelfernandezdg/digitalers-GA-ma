@@ -19,15 +19,22 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N64293K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header id="header">
-        <a href="index.html"><img src="img/logo.svg" alt="La Librería | Libros Fantásticos"></a>
-        <nav>
-            <ul>
-                <li><a class="nav" href="catalogo.html">Catálogo</a></li>
-                <li><a class="nav" href="sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a class="nav" href="contacto.html">Contacto</a></li>
-                <li><a class="nav" href="login.html">Login</a></li>
-            </ul>
-        </nav>
+        <div class="contenedor-header">
+            <a href="index.html"><img src="img/logo.svg" alt="La Librería | Libros Fantásticos"></a>
+            <nav>
+                <ul>
+                    <li><a class="nav" id="catalogo" href="catalogo.html">Catálogo</a></li>
+                    <li><a class="nav" id="sobre_nosotros" href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a class="nav" id="contacto" href="contacto.html">Contacto</a></li>
+                    <li><a class="nav" id="login" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <form action="" class="busqueda">
+                <label for="buscar" class="sr-only">Ingresar término de búsqueda</label>
+                <input type="text" name="buscar" aria-label="Ingresar término de búsqueda">
+                <button name="buscar">Buscar</button>
+            </form>
+        </div>
     </header>
 
     <main role="main">
